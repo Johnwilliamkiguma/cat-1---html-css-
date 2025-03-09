@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f8b400;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: white;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f8b400;
+}
+
+.buttons .login,
+.buttons .get-started {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.buttons .get-started {
+    background: #f8b400;
+    color: black;
+}
+
+.buttons .login {
+    background: white;
+    color: black;
+}
+
+#homepage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #f8b400;
+}
+
+.explore-btn {
+    margin-top: 20px;
+    background: #f8b400;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background: #e69c00;
+}
+
+.hero-image img {
+    width: 400px;
+    filter: drop-shadow(0 0 15px #f8b400);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.stat-box h3 {
+    font-size: 28px;
+    color: #f8b400;
+}
+
+#about,
+#products {
+    text-align: center;
+    padding: 80px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(248, 180, 0, 0.3);
+    text-align: center;
+    max-width: 220px;
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
