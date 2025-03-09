@@ -1,4 +1,6 @@
 AgriPlus 🌱
+
+
 AgriPlus is a simple HTML and CSS project designed to showcase an online platform for buying and selling farm produce. The website provides an intuitive interface for users to explore products, view vendor details, and understand the platform's mission.
 
 🛠 Tech Stack
